@@ -1,0 +1,98 @@
+/* Colors and fonts */
+
+body {
+	background-color: #FBFAF8;
+}
+
+h1 {
+	color: #636564 ; 
+	font-family: 'Concert One', cursive;
+	font-size: ;
+
+}
+ 
+p{
+	font-family:  'Nunito', sans-serif;
+}
+
+h2 {
+	color:  #726DA8  ;
+	font-size: ;
+	font-family: 'Lobster', cursive;
+	font-weight: ;
+}
+
+
+
+a{
+	text-decoration: none ;
+	color: #33658A ;
+}
+
+a:hover {
+	color: #BDD5EA ;
+}
+  
+
+
+
+img{ /* select all elements with the class="img-circle" */
+  border-radius: 100%;
+  border: black
+}
+
+
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background: #726DA8 ;
+color:white;
+text-decoration:none;
+border-radius: 10px
+}
+
+.card1 { 
+background: white;
+	    padding: 10px;
+	    margin: 15px;
+	    box-shadow: 0px 10px 30px lightgrey;
+	    border-radius: 4px;
+	    margin-left: 150px;
+	    margin-right: 150px;
+ }
+
+ .card2, .card3, .card4, .card5{
+ 	background: white;
+	    padding: 5px;
+	    margin: 30px;
+	    box-shadow: 0px 10px 30px lightgrey;
+	    border-radius: 4px;
+	    margin-right: 150px;
+	    margin-left: 150px;
+ }
+
+
+.follow {
+	font-size: 85px;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+
+
